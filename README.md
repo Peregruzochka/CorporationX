@@ -4,9 +4,14 @@
 # My features
 ## 1. Постановка целей
 Реализация основныx операции: создать новую цель, обновить цель, удалить цель, получить все подзадачи цели по фильтру и получить список целей с фильтрами.
+https://github.com/CorporationX/user_service/blob/feature-BJS2-26821/src/main/java/school/faang/user_service/controller/goal/GoalController.java
+https://github.com/CorporationX/user_service/blob/feature-BJS2-26821/src/main/java/school/faang/user_service/service/goal/GoalService.java
 
 ## 2. Приоритет поиска для премиум-пользователей
 Реализация системы приоритетного отображения аккаунтов пользователей с премиальной подпиской в поисковой выдаче, что увеличивает их видимость и потенциальные шансы на сотрудничество по сравнению с обычными пользователями.
+https://github.com/CorporationX/user_service/blob/feature-BJS2-26827/src/main/java/school/faang/user_service/controller/user/UserController.java
+https://github.com/CorporationX/user_service/blob/feature-BJS2-26827/src/main/java/school/faang/user_service/service/user/UserService.java
+https://github.com/CorporationX/user_service/blob/feature-BJS2-26827/src/main/java/school/faang/user_service/repository/UserRepository.java
 
 ## 3. Система видимости альбомов
 В приложении можно создавать альбомы постов. Реализована полльзовательская настройка видимости для каждого альбома. Т.е. альбом, созданный определенным пользователем может быть доступен:
