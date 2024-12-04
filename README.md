@@ -20,6 +20,7 @@
 - Только его подписчикам
 - Только выбранным автором пользователям
 - Только автору
+
 https://github.com/CorporationX/post_service/blob/feature-BJS2-26857/src/main/java/faang/school/postservice/service/AlbumService.java
 
 ## 4. Добавление картинок к посту
