@@ -56,7 +56,7 @@
 - [AccountController.java](https://github.com/CorporationX/account_service/blob/feature-BJS2-26951/src/main/java/faang/school/accountservice/controller/AccountController.java)
 - [AccountService.java](https://github.com/CorporationX/account_service/blob/feature-BJS2-26951/src/main/java/faang/school/accountservice/service/AccountService.java)
 - [AccountRepository.java](https://github.com/CorporationX/account_service/blob/feature-BJS2-26951/src/main/java/faang/school/accountservice/repository/AccountRepository.java)
-- Entity [Account.java](https://github.com/CorporationX/account_service/blob/feature-BJS2-26951/src/main/java/faang/school/accountservice/model/account/Account.java)
+- [Account.java](https://github.com/CorporationX/account_service/blob/feature-BJS2-26951/src/main/java/faang/school/accountservice/model/account/Account.java) Entity
 
 ## 9. URL Shortener
 Реализация killer-feature URL Shortner
@@ -71,7 +71,7 @@
 
 - [UrlController.java](https://github.com/CorporationX/url_shortener_service/blob/peregruzochka-url-shortener-BJS2-42946/src/main/java/faang/school/urlshortenerservice/controller/UrlController.java)
 - [UrlService.java](https://github.com/CorporationX/url_shortener_service/blob/peregruzochka-url-shortener-BJS2-42946/src/main/java/faang/school/urlshortenerservice/service/UrlService.java)
-- кэширование длинных ссылок [UrlCacheRepository.java](https://github.com/CorporationX/url_shortener_service/blob/peregruzochka-url-shortener-BJS2-42946/src/main/java/faang/school/urlshortenerservice/repository/UrlCacheRepository.java)
+- [UrlCacheRepository.java](https://github.com/CorporationX/url_shortener_service/blob/peregruzochka-url-shortener-BJS2-42946/src/main/java/faang/school/urlshortenerservice/repository/UrlCacheRepository.java) кэширование длинных ссылок 
 - [Base62Encoder.java](https://github.com/CorporationX/url_shortener_service/blob/peregruzochka-url-shortener-BJS2-42946/src/main/java/faang/school/urlshortenerservice/hash/Base62Encoder.java)
 - [HashCacheFiller.java](https://github.com/CorporationX/url_shortener_service/blob/peregruzochka-url-shortener-BJS2-42946/src/main/java/faang/school/urlshortenerservice/hash/HashCacheFiller.java)
 
@@ -85,9 +85,9 @@
 - **Разогреватель фида:** Реализация механизма предварительной генерации ленты (news feed) для всех пользователей при первом запуске приложения.
 - **Эндпоинты для получения постов:** Создание API для получения пачек постов из пользовательской ленты, соответствующих текущему состоянию news feed.
 
-- [AbstractKafkaProducer.java](https://github.com/CorporationX/post_service/blob/news-feed-team2-developer/src/main/java/faang/school/postservice/producer/AbstractKafkaProducer.java) [KafkaPostProducer.java](https://github.com/CorporationX/post_service/blob/news-feed-team2-developer/src/main/java/faang/school/postservice/producer/KafkaPostProducer.java)
+- [AbstractKafkaProducer.java](https://github.com/CorporationX/post_service/blob/news-feed-team2-developer/src/main/java/faang/school/postservice/producer/AbstractKafkaProducer.java) | [KafkaPostProducer.java](https://github.com/CorporationX/post_service/blob/news-feed-team2-developer/src/main/java/faang/school/postservice/producer/KafkaPostProducer.java)
 - [KafkaPostPublishConsumer.java](https://github.com/CorporationX/post_service/blob/news-feed-team2-developer/src/main/java/faang/school/postservice/listener/KafkaPostPublishConsumer.java)
-- [NewsFeedRedisRepository.java](https://github.com/CorporationX/post_service/blob/news-feed-team2-developer/src/main/java/faang/school/postservice/repository/NewsFeedRedisRepository.java) [RedisTransactionRetryWrapper.java](https://github.com/CorporationX/post_service/blob/news-feed-team2-developer/src/main/java/faang/school/postservice/repository/RedisTransactionRetryWrapper.java)
-- [NewsFeedController.java](https://github.com/CorporationX/post_service/blob/news-feed-team2-developer/src/main/java/faang/school/postservice/controller/NewsFeedController.java) [NewsFeedService.java](https://github.com/CorporationX/post_service/blob/news-feed-team2-developer/src/main/java/faang/school/postservice/service/NewsFeedService.java)
+- [NewsFeedRedisRepository.java](https://github.com/CorporationX/post_service/blob/news-feed-team2-developer/src/main/java/faang/school/postservice/repository/NewsFeedRedisRepository.java) | [RedisTransactionRetryWrapper.java](https://github.com/CorporationX/post_service/blob/news-feed-team2-developer/src/main/java/faang/school/postservice/repository/RedisTransactionRetryWrapper.java)
+- [NewsFeedController.java](https://github.com/CorporationX/post_service/blob/news-feed-team2-developer/src/main/java/faang/school/postservice/controller/NewsFeedController.java) | [NewsFeedService.java](https://github.com/CorporationX/post_service/blob/news-feed-team2-developer/src/main/java/faang/school/postservice/service/NewsFeedService.java)
 
 
